@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf">
+  <link rel="stylesheet" href="./assets/fonts/static/PlusJakartaSans-ExtraBold.ttf">
+  <link rel="stylesheet" href="./assets/fonts/static/PlusJakartaSans-Medium.ttf">
+  <title>Frontend Mentor | Notifications page</title>
+   
+</head>
+<body>
+  <div class="main background-white">
+    <div class="container">
+      <!--Start header-->
+      <header class="header">
+        <div class="header-notification">
+          <h3>Notifications</h3>
+          <span id="box" class="box-notification">3</span>
+        </div>
+        <span id="click" class="mark-notification">
+          Mark all as read
+        </span>
+      </header>
+        <!--End Header-->  
+      <div class="content">
+        <!--Start Mark's comment-->
+       <div class="background-light--blue notification unread">
+        <div class="user-comment ">
+          <img src="./assets/images/avatar-mark-webber.webp" alt="" class="img">
+          <div class="user-content">
+            <div class="user-content--above">
+              <a href="#" class="user-name">Mark Webber</a>
+             <p class="user-notify"> reacted to your recent post</p>
+              <a href="#" class="content-event">My first tournament today!</a>
+              <span class="circle-red"></span>
+            </div>
+            <span class="user-time--notification">
+              1m ago
+            </span>
+            
+          </div>
+        </div>
+       </div>
+        <!--End Mark's comment-->
+         <!--Start Angela's comment-->
+       <div class="background-light--blue notification unread">
+        <div class="user-comment ">
+          <img src="./assets/images/avatar-angela-gray.webp" alt="" class="img">
+          <div class="user-content">
+            <div class="user-content--above">
+              <a href="#" class="user-name">Angela Gray</a>
+              <p class="user-notify">followed you</p>
+              <span class="circle-red"></span>
+            </div>
+            <span class="user-time--notification">
+              5m ago
+            </span>
+            
+          </div>
+        </div>
+       </div>
+        <!--End Angela's comment-->
+         <!--Start Jacob's comment-->
+       <div class="background-light--blue notification unread">
+        <div class="user-comment ">
+          <img src="./assets/images/avatar-jacob-thompson.webp" alt="" class="img">
+          <div class="user-content">
+            <div class="user-content--above">
+              <a href="#" class="user-name">Jacob Thompson</a>
+              <p class="user-notify">has joined your group</p>
+              <a href="#" class="content-event">Chess Club</a>
+              <span class="circle-red"></span>
+            </div>
+            <span class="user-time--notification">
+              1 day ago
+            </span>
+            
+          </div>
+        </div>
+       </div>
+        <!--End Jacob's comment-->
+          <!--Start Rizky's comment-->
+          <div class="background-light--blue">
+            <div class="user-comment ">
+              <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="" class="img">
+              <div class="user-content">
+                <div class="user-content--above">
+                  <a href="#" class="user-name">Rizky Hasanuddin</a>
+                  <p class="user-notify">sent you a private message</p>
+                </div>
+                <span class="user-time--notification">
+                  5 days ago
+                </span>
+                <div class="user-message">
+                  <p>
+                    Hello, thanks for setting up the Chess Club.I've been a member
+                    for a few weeks now and i'm already having lots of fun and improving
+                    my game.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--End Rizky's comment-->
+         <!--Start Smith's comment-->
+       <div class="background-light--blue">
+        <div class="user-comment ">
+          <img src="./assets/images/avatar-kimberly-smith.webp" alt="" class="img">
+          <div class="flex">
+            <div class="user-content">
+              <div class="user-content--above">
+                <a href="#" class="user-name">Kimberly Smith</a>
+                <p class="user-notify">commented on your picture</p>
+              </div>
+              <span class="user-time--notification">
+                1 week ago
+              </span>
+              
+            </div>
+            <img src="./assets/images/image-chess.webp" alt="" class="img img-notify">
+          </div>
+        </div>
+       </div>
+        <!--End Smith's comment-->
+         <!--Start Mark's comment-->
+       <div class="background-light--blue">
+        <div class="user-comment ">
+          <img src="./assets/images/avatar-nathan-peterson.webp" alt="" class="img">
+          <div class="user-content">
+            <div class="user-content--above">
+                
+                  <a href="#" class="user-name">Nathan Peterson</a>
+                  <p class="user-notify">reacted to your recent post</p>
+                
+              
+              <a href="#" class="content-event">          
+                5 end-game strategies to increase your win rate     
+              </a>
+            </div>
+            <span class="user-time--notification">
+              2 weeks ago
+            </span>
+            
+          </div>
+        </div>
+       </div>
+        <!--End Mark's comment-->
+        <!--Start Anna's comment-->
+       <div class="background-light--blue">
+        <div class="user-comment ">
+          <img src="./assets/images/avatar-anna-kim.webp" alt="" class="img">
+          <div class="user-content">
+            <div class="user-content--above">
+              <a href="#" class="user-name">Anna Kim</a>
+              <p class="user-notify">left the group</p>
+              <a href="#" class="content-group">Chess Club</a>
+             
+            </div>
+            <span class="user-time--notification">
+              2 weeks ago
+            </span>
+            
+          </div>
+        </div>
+       </div>
+        <!--End Anna's comment-->
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">TL02</a>.
+  </div>
+  <script>
+   let click=document.getElementById('click');
+   click.addEventListener('click',() => {
+    Array.from(document.getElementsByClassName('notification')).forEach((el) => el.classList.remove('unread'))
+    document.getElementById('box').innerHTML=0;
+   })
+
+  </script>
+  
+</body>
+</html>
